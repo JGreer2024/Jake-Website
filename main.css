@@ -1,0 +1,83 @@
+li a:hover {
+  background-color: #384558;
+  padding: 10px;
+}
+li a{
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #304D6D;
+}
+li {
+  display: inline;
+  float: left;
+}
+
+.top {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+body{
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fwatercolor-background&psig=AOvVaw3SS581WBs704VGJxxgjKaa&ust=1705081616724000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOiAwpTy1YMDFQAAAAAdAAAAABAP");
+}
+p{
+  padding: 5px
+  font-family: "Papyrus";
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 250, 0.1);
+  color: black;
+}
+h1 {
+  padding: 100px;
+  text-align:center;
+  text-shadow: 2px 2px 7px #304D6D;
+}
+img{
+  : center;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+div3{
+  cursor:pointer;
+  display: flex;
+  justify-content: center;
+}
+#background:hover{
+  background-color: black;
+  color: white;
+}
+
+#background.isBlack:hover{
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+button{
+  font-size: 35px;
+  margin: 30px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 10px;
+  width: 300px;
+  background-color:teal;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
